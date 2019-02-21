@@ -35,8 +35,9 @@ function wrapper(plugin_info) {
 	}
 
 	window.plugin.waypoints.onPortalClick = function(marker) {
-		if (false == window.plugin.waypoints.recording) {
+		if (true == window.plugin.waypoints.recording) {
 			// Skipping, only interesting when we record
+			// Changed Fales to True to attempt to draw marker on map, not portal.
 			return;
 		}
 
