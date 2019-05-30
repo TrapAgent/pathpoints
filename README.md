@@ -2,4 +2,4 @@
 
 # copy to install user script:
 
-https://github.com/atyleruf73/pathpoints/raw/master/Pathpoints.js
+https://raw.githubusercontent.com/TrapAgent/pathpoints/master/Pathpoints.js
